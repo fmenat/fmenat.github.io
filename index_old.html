@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='pragma' content='no-cache'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francisco Mena</title>
+
+    <!--Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--Custom CSS-->
+
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+    <!--Header Section-->
+    <header class="header">
+        <a href="#" class="logo">Menu</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#publications">Publications</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Get in touch</a>
+        </nav>
+    </header>
+
+    <!-- home section design  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi there 👋, I'm</h3>
+            <h1>Francisco Mena</h1>
+            <h3>A <span class="multiple-text"></span></h3>
+            <h6> I'm doing my PhD at the University of Kaiserslautern-Landau (RPTU - by its acronym in German) in the intersection of 
+                Artificial Intelligence and Earth Observation domain (AI4EO). I also work at the German Research Centre for Artificial Intelligence 
+                (DFKI - by its acronym in German).
+                My current research interests are in Deep Learning, Dimensionality Reduction, Multi-view Learning, Data Fusion, and Earth Observation data.
+            </h6>
+            <div class="social-media">
+                <a href="https://github.com/fmenat" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://twitter.com/fmenat14"><i class='bx bxl-twitter' target="_blank"></i></a>
+                <a href="https://www.linkedin.com/in/fmenat/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://www.ai4eo-factory.de/en-index.html" target="_blank">Group Website</i></a>
+            </div>
+            <a href="#about" class="btn">More About <span>Me</span></a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/me.jpg" alt="">
+        </div> 
+    </section>
+
+    <!-- About Section design -->
+    <section class="about" id="about">
+        <!-- <div class="about-img">
+            <img src="images/home.png" alt="">
+        </div> -->
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3> MSc and BSc in Informatics Engineering  </h3>
+            <p> Francisco Mena is a Master of Science (MSc) graduate from Federico Santa María Technical University (UTFSM, in Chile) 
+                where he also studied for his Bachelor of Science in the field of Computer Engineering specializing in Artificial Intelligence. 
+                Always interested in building automated systems that help society, he joined the Chilean Virtual Observatory (CHiVO) during his undergraduate studies in 2017. 
+                Later during the Master's program (from 2018) he explored three different areas using Artificial Intelligence: Crowdsourcing, Astroinformatics, 
+                and Information Retrieval (Similarity Search). Once he obtained his Master's degree he started working as a Part-time Lecturer at the same institution 
+                where he studied (UTFSM) in 2020, teaching the course Computational Statistics and Artificial Neural Networks. </p>
+            <span id="extra-text" style="display:none">
+                <p> He now lives in Germany to pursue his doctorate in Computer science, specifically in Artificial Intelligence for Earth Observation (AI4EO).
+                    He is studying in Kaiserslautern, at the University of Kaiserslautern-Landau (RPTU) and working at the German Research Centre for Artificial Intelligence (DFKI)
+                    in the 
+                    <a href="https://sds.dfki.de/"> Smart Data & Knowledge Services (SDS)  </a>
+                     department under Prof. Dengel in a satellite applications group (<a href="https://www.ai4eo-factory.de/en-index.html" >AI4EO Solution Factory</a>).
+                </p>
+            </span>
+            <button id="toggle-btn" onclick="toggleExtra()" class="btn">Read More</button>
+        </div>
+    </section>
+
+    <section class="publications" id="publications">
+        <h2 class="heading">My <span>Publications</span></h2>
+
+        <p> My ORCID is <a href="https://orcid.org/0000-0002-5004-6571"> 0000-0002-5004-6571 </a> </p>
+        <p> You could find an updated version of my publications at </p>
+        <a href="https://www.researchgate.net/profile/Francisco-Mena-3" target="_blank"><i class='bx bxs-folder-open'></i> ResearchGate </a>
+        <a href="https://scholar.google.com/citations?user=jl736ssAAAA" target="_blank"><i class='bx bxl-google'></i> GoogleScholar </a>
+
+        <h5> Some of my relevant publications are: </h5>
+
+        TODO
+    </section>
+
+    <!-- services section design -->
+    <section class="experience" id="experience">
+        <h2 class="heading">My <span>Research Experience</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxs-cog'></i>
+                <h3>Artificial Intelligence / Machine Learning</h3>
+                <p>brief explication</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+            <div class="services-box">
+                <i class='bx bx-station'></i>
+                <h3>Earth Observation</h3>
+                <p>brief explication</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+            <div class="services-box">
+                <i class='bx bx-group'></i>
+                <h3>Crowdsourcing</h3>
+                <p>brief explication</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-rocket'></i>
+                <h3>Astroinformatics</h3>
+                <p>brief explication</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+            <div class="services-box">
+                <i class='bx bx-cylinder'></i>
+                <h3>Similarity Search / Information Retrieval </h3>
+                <p>brief explication</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Get in touch <span>Me!</span></h2>
+
+        <form action="#">
+            <p>  Currently, you can reach me at francisco.mena at dfki.de  or f.menat at rptu.de </p>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!--End of Header Section-->
+
+    <!-- Footer Design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+
+    <!--Custom JS-->
+    <script src="Content/script.js"></script>
+</body>
+
+</html>
