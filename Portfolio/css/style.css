@@ -85,6 +85,7 @@ section {
 .home-img img {
     width: 35vw;
     animation: floatImage 4s ease-in-out infinite;
+    border-radius: 80%;
 }
 
 .profile-img img {
@@ -468,6 +469,7 @@ span {
     .home-img img {
         width: 70vw;
         margin-top: 4rem;
+        border-radius: 80%;
     }
 
     .profile-img img {
@@ -516,6 +518,7 @@ span {
 @media (max-width: 365px) {
     .home-img img {
         width: 9vw;
+        border-radius: 80%;
     }
 
     .profile-img img {
