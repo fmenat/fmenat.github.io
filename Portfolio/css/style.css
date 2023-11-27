@@ -466,7 +466,7 @@ span {
 
     .profile-img img {
         width: 70vw;
-        border-radius: 50%;
+        border-radius: 10%;
     }
 
     .about {
