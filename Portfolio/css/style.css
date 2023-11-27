@@ -87,6 +87,12 @@ section {
     animation: floatImage 4s ease-in-out infinite;
 }
 
+.profile-img img {
+    width: 35vw;
+    border-radius: 80%;
+    animation: floatImage 4s ease-in-out infinite;
+}
+
 @keyframes floatImage {
     0% {
         transform: translateY(0);
@@ -510,6 +516,11 @@ span {
 @media (max-width: 365px) {
     .home-img img {
         width: 9vw;
+    }
+
+    .profile-img img {
+        width: 9vw;
+        border-radius: 80%;
     }
 
     .about-img img {
