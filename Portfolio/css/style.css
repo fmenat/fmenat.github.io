@@ -83,7 +83,7 @@ section {
 }
 
 .home-img img {
-    width: 30vw;
+    width: 40vw;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -504,7 +504,7 @@ span {
 
 @media (max-width: 365px) {
     .home-img img {
-        width: 6vw;
+        width: 7vw;
     }
 
     .about-img img {

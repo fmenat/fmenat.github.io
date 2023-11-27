@@ -73,7 +73,7 @@ const typed = new Typed('.multiple-text', {
 });
 
 
-const typed2 = new Typed('.current-grade-text', {
+const typedv2 = new Typed('.current-grade-text', {
     strings: ['Informatics Engineering'],
     typeSpeed: 200,
     backSpeed: 100,
