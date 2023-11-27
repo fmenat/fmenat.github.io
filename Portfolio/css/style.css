@@ -464,6 +464,12 @@ span {
         margin-top: 4rem;
     }
 
+    .profile-img img {
+        width: 60vw;
+        margin-top: 4rem;
+        border-radius: 50%;
+    }
+
     .about {
         flex-direction: column-reverse;
     }
