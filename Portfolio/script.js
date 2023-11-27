@@ -71,3 +71,12 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1000,
     loop: true
 });
+
+
+const typed2 = new Typed('.current-grade-text', {
+    strings: ['Informatics Engineering'],
+    typeSpeed: 200,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+});
