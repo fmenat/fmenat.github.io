@@ -74,7 +74,7 @@ const typed = new Typed('.multiple-text', {
 
 
 const typedv2 = new Typed('.current-grade-text', {
-    strings: ['Informatics Engineering'],
+    strings: ['Computer Engineering'],
     typeSpeed: 50,
     backSpeed: 100,
     backDelay: 1000,
