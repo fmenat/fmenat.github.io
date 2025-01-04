@@ -537,7 +537,7 @@ span {
   padding: 8px;
 }
 
-#customtab tr:nth-child(even){background-color: var(--bg-color);}
+#customtab tr:nth-child(even){background-color: var(--second-bg-color);}
 
 #customtab tr:hover {background-color: #ddd;}
 
@@ -545,6 +545,6 @@ span {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: var(--text-color);
+  background-color: var(--bg-color);
   color: var(--main-color);
 }
