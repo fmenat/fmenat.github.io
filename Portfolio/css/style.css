@@ -548,3 +548,11 @@ span {
   background-color: var(--bg-color);
   color: var(--main-color);
 }
+
+ul.b {
+    list-style-type: square;
+  }
+
+ul {
+    font-size: 20px;
+}
