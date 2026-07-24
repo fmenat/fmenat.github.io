@@ -65,7 +65,7 @@ ScrollReveal().reveal('.home-content p1, .about-content', { origin: 'right' });
 
 // typed js
 const typed = new Typed('.multiple-text', {
-    strings: ['in Computer Science'],
+    strings: ['Computer Science'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 2000,
