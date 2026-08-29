@@ -1,0 +1,73 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+{% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+{% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+{% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+{% if teaser %}
+<div class="archive__item-teaser">
+  <img src=
+    "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+    alt="">
+</div>
+{% endif %}
+
+<h3 class="archive__item-title" itemprop="headline">
+  {% if post.link %}
+    <a href="{{ post.link }}">{{ title }}</a>
+  {% else %}
+    <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+  {% endif %}
+</h3>
+
+{% if post.collection == 'teaching' %}
+  <p>{{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+{% elsif post.collection == 'publications' %}
+  <p style="font-size: 15px;">Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+{% elsif post.date %}
+  <p class="page__date">
+    <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">
+      {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}
+    </time>
+  </p>
+{% endif %}
+
+{% if post.excerpt %}
+  <p class="archive__item-excerpt" itemprop="description">
+    {% if post.collection == 'publications' %}
+    Keywords: 
+    {% endif %}
+    {{ post.excerpt  }}
+  </p>
+{% endif %}
+
+{% if post.paperurl or post.slidesurl or post.bibtexurl %}
+  <p class="archive__item-links">
+    >>> 
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}">Paper</a>
+    {% endif %}
+    {% if post.slidesurl %}
+      {% if post.paperurl %} | {% endif %}
+      <a href="{{ post.slidesurl }}">Slides</a>
+    {% endif %}
+    {% if post.bibtexurl %}
+      {% if post.paperurl or post.slidesurl %} | {% endif %}
+      <a href="{{ post.bibtexurl }}">BibTeX</a>
+    {% endif %}
+  </p>
+{% endif %}
+
+  </article>
+</div>
