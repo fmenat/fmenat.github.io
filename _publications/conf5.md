@@ -6,13 +6,14 @@ permalink: /publication/conf5
 excerpt: 'Crop-type mapping, Multi-view learning, Data fusion, Remote sensing.'
 date: 2023-07-16
 venue: 'IEEE International Geoscience and Remote Sensing Symposium (IGARSS)'
+paperurl: 'https://fmenat.github.io/files/conf5.pdf'
 slidesurl: 'https://fmenat.github.io/files/conf5_slides.pdf'
 citation: 'Mena, Francisco, et al. "A comparative assessment of multi-view fusion learning for crop classification." IGARSS 2023-2023 IEEE International Geoscience and Remote Sensing Symposium. IEEE, 2023.'
 header:
     teaser: conf5.png
 ---
 * Paper url: [DOI: 10.1109/IGARSS52108.2023.10282138](https://doi.org/10.1109/IGARSS52108.2023.10282138)
-* Paper code: [github.com/fmenat/MultiviewCropClassification](https://github.com/fmenat/ExoplanetDetection)
+* Paper code: [github.com/fmenat/MultiviewCropClassification](https://github.com/fmenat/MultiviewCropClassification)
 
 ![missing data](/images/conf5.png)
 

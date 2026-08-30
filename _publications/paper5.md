@@ -12,6 +12,7 @@ header:
     teaser: paper5.jpg
 ---
 * Paper url: [DOI: 10.1016/j.rse.2024.114547](https://doi.org/10.1016/j.rse.2024.114547)
+* Dataset used: [YieldSAT](https://yieldsat.github.io/)
 
 ![missing data](/images/paper5.jpg)
 

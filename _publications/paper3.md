@@ -3,7 +3,7 @@ title: "Multi-sensor model for Earth observation robust to missing data via sens
 collection: publications
 category: manuscripts
 permalink: /publication/paper3
-excerpt: 'Multi-sensor model, Earth observation, Robustness to missing data, Multi-task learning, Mutual distillation.'
+excerpt: 'Multi-sensor model, Earth observation, Robustness, Multi-task learning, Mutual distillation.'
 date: 2025-04-09
 venue: 'IEEE Access'
 paperurl: 'https://fmenat.github.io/files/paper3.pdf'

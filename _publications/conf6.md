@@ -6,12 +6,14 @@ permalink: /publication/conf6
 excerpt: 'Vegetation Applications, Multi-view learning, Missing data.'
 date: 2024-07-07
 venue: 'IEEE International Geoscience and Remote Sensing Symposium (IGARSS)'
+paperurl: 'https://fmenat.github.io/files/conf6.pdf'
 slidesurl: 'https://fmenat.github.io/files/conf6_slides.pdf'
 citation: 'Mena, Francisco, et al. "Impact assessment of missing data in model predictions for Earth observation applications." IGARSS 2024-2024 IEEE International Geoscience and Remote Sensing Symposium. IEEE, 2024.'
 header:
     teaser: conf6.png
 ---
 * Paper url: [DOI: 10.1109/IGARSS53475.2024.10640375](https://doi.org/10.1109/IGARSS53475.2024.10640375)
+* Paper code: [github.com/fmenat/missingviews-study-EO](https://github.com/fmenat/missingviews-study-EO)
 
 ![missing data](/images/conf6.png)
 
