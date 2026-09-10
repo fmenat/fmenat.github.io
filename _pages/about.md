@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 I'm a postdoctoral researcher at the GFZ Helmholtz Centre for Geosciences, working with deep learning for remote sensing analysis in the [GLM group](https://www.gfz.de/en/section/remote-sensing-and-geoinformatics/topics/global-land-monitoring). Concretely, I'm applying novel and efficient AI approaches to continuous forest disturbance and land monitoring under the supervision of [Martin Herold](https://www.gfz.de/en/staff/martin.herold) and [Simon Besnard](https://simonbesnard1.github.io/).
-I'm a member of the IEEE [GRSS](https://www.grss-ieee.org/) and serve as a reviewer for GRSS-related journals, as well as for Neurocomputing, Pattern Recognition, Remote Sensing of Environment, and the International Journal of Applied Earth Observation and Geoinformation.
+I'm also a member of the [IEEE GRSS](https://www.grss-ieee.org/) and serve as a reviewer for GRSS-related journals, as well as for Neurocomputing, Pattern Recognition, Remote Sensing of Environment, and the International Journal of Applied Earth Observation and Geoinformation.
 
 > My research interests include Deep Learning, Multi-view Learning, Representation Learning, Model Robustness, and Earth Observation 🌎.
 
