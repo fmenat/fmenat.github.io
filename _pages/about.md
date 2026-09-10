@@ -16,6 +16,8 @@ I'm a member of the IEEE [GRSS](https://www.grss-ieee.org/) and serve as a revie
 
 Previously, I worked at the German Research Centre for Artificial Intelligence (DFKI) on agriculture- and land-related projects, including crop yield prediction, crop-type mapping, and flood mapping using remote sensing data. I was part of the [ESA team](https://www.ai4eo-factory.de/en/), contributing to research projects and publications in AI for Earth Observation.
 
-I obtained my PhD in Computer Science from the University of Kaiserslautern-Landau (RPTU), with my doctoral research focusing on *[Multi-view Learning for Earth Observation Applications with Missing Views](https://doi.org/10.26204/KLUEDO/13182)*. My PhD was supervised by [Andreas Dengel](https://www.dfki.uni-kl.de/~dengel/indexEng.php) and mentored by [Diego Arenas](https://www.researchgate.net/profile/Diego-Arenas-8).
+### Studies
+
+I earned my PhD in Computer Science from the University of Kaiserslautern-Landau (RPTU), focusing on *[Multi-view Learning for Earth Observation Applications with Missing Views](https://doi.org/10.26204/KLUEDO/13182)*. My PhD was supervised by [Andreas Dengel](https://www.dfki.uni-kl.de/~dengel/indexEng.php) and mentored by [Diego Arenas](https://www.researchgate.net/profile/Diego-Arenas-8).
 
 Before moving to Germany, I obtained my MSc and BSc degrees in Computer Engineering from the Universidad Técnica Federico Santa María (UTFSM), where I specialized in AI under the supervision of [Ricardo Ñanculef](https://scholar.google.com/citations?user=hndLsckAAAAJ). During my studies, I worked on various AI applications, including crowdsourcing, astroinformatics, and information retrieval.
