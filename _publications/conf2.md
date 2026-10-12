@@ -6,7 +6,7 @@ permalink: /publication/conf2
 excerpt: 'Crop yield prediction, Remote Sensing, Multi-Modal Learning.'
 date: 2023-07-16
 venue: 'IEEE International Geoscience and Remote Sensing Symposium (IGARSS)'
-doiurl: 10.1109/IGARSS52108.2023.10282318
+doiurl: '10.1109/IGARSS52108.2023.10282318'
 citation: 'Pathak, Deepak, Miranda, Miro, Mena, Francisco, et al. Predicting crop yield with machine learning: An extensive analysis of input modalities and models on a field and sub-field level. IGARSS 2023-2023 IEEE International Geoscience and Remote Sensing Symposium. IEEE, 2023.'
 header:
     teaser: conf2.png
